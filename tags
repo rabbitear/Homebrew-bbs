@@ -1,0 +1,186 @@
+AddFirst	ulist.c	/^int  AddFirst(Header *hdr, Data *s)$/
+AddItem	ulist.c	/^int  AddItem(Header *hdr, Data *s)$/
+AddLast	ulist.c	/^int AddLast(Header *hdr, Data *s)$/
+AskPass	user.c	/^void AskPass(void) {$/
+AttackPlayer	game.c	/^int AttackPlayer(void) {$/
+CatFileDirect	misc.c	/^int CatFileDirect(const char *filename) {$/
+CatFileDirect2	misc.c	/^int CatFileDirect2(const char *filename) {$/
+CatFileNoPause	misc.c	/^int CatFileNoPause(const char *filename) {$/
+CatMsg	gmsg.c	/^int CatMsg(const long msgNo, const long hiMsg, con/
+ChangePassword	user.c	/^void ChangePassword() {$/
+ChatRoomPrompt	chat.c	/^int ChatRoomPrompt(void) {$/
+CheckKeyCode	user.c	/^int CheckKeyCode() {$/
+CheckProfile	user.c	/^void CheckProfile(void) {$/
+ClearList	ulist.c	/^void ClearList(Header *hdr)$/
+ConfigureMenu	menu.c	/^void ConfigureMenu(const char *ip) {$/
+CreateList	ulist.c	/^void CreateList(Header *hdr)$/
+CreateNode	ulist.c	/^int CreateNode(List *new, Data *s)$/
+DebugPrint	ulist.c	/^void DebugPrint(Header H)$/
+DeleteMsg	gmsg.c	/^void DeleteMsg(int msgNo, const int rnum) {$/
+DictWord	misc.c	/^void DictWord() {$/
+FNA	wumpus.c	/^#define FNA() (rand() % 20) $/
+FNB	wumpus.c	/^#define FNB() (rand() % 3) $/
+FNC	wumpus.c	/^#define FNC() (rand() % 4) $/
+FakeMail	file-ed.c	/^void FakeMail() {$/
+FirstItem	ulist.c	/^int FirstItem(Header *hdr)$/
+GAddFirst	game-list.c	/^int  GAddFirst(Header *hdr, Data *s)$/
+GAddItem	game-list.c	/^int  GAddItem(Header *hdr, Data *s)$/
+GAddLast	game-list.c	/^int GAddLast(Header *hdr, Data *s)$/
+GClearList	game-list.c	/^void GClearList(Header *hdr)$/
+GCreateList	game-list.c	/^void GCreateList(Header *hdr)$/
+GCreateNode	game-list.c	/^int GCreateNode(List *new, Data *s)$/
+GFilesMenu	gfiles.c	/^void GFilesMenu() {$/
+GFirstItem	game-list.c	/^int GFirstItem(Header *hdr)$/
+GGetItem	game-list.c	/^int  GGetItem(Header hdr, Data *s)$/
+GItemCount	game-list.c	/^uli GItemCount(Header hdr)$/
+GKillElement	game-list.c	/^void GKillElement(Header *hdr, List *item)$/
+GKillItem	game-list.c	/^int GKillItem(Header *hdr)$/
+GLastItem	game-list.c	/^int GLastItem(Header *hdr)$/
+GMerge	game-list.c	/^void GMerge(Header *ha, Header *hb, Header *ret)$/
+GNextItem	game-list.c	/^int  GNextItem(Header *hdr)$/
+GPrevItem	game-list.c	/^int  GPrevItem(Header *hdr)$/
+GPrintList	game-list.c	/^void GPrintList(Header hdr, FILE *fptr)$/
+GRemoveDups	game-list.c	/^void GRemoveDups(Header *hdr)$/
+GResetList	game-list.c	/^void GResetList(Header *hdr)$/
+GSort	game-list.c	/^void GSort(Header *hdr)$/
+GSortDown	game-list.c	/^void GSortDown(void)$/
+GSortUp	game-list.c	/^void GSortUp(void)$/
+GetEmailVerify	user.c	/^void GetEmailVerify(void) {$/
+GetItem	ulist.c	/^int  GetItem(Header hdr, Data *s)$/
+GetKey	chat.c	/^int GetKey(int mode) {$/
+GetKeyArrows	chat.c	/^int GetKeyArrows(void) {$/
+GetKeyPrompt	chat.c	/^int GetKeyPrompt(const char *prompttext) {$/
+GetMsgAuthor	gmsg.c	/^char *GetMsgAuthor(const long msgNo, const int rnu/
+GetMsgSubject	gmsg.c	/^char *GetMsgSubject(const long msgNo, const int rn/
+GetRoomFile	rmsg.c	/^int GetRoomFile(void) {$/
+GetRoomName	rmsg.c	/^char *GetRoomName() {$/
+GetStr	chat.c	/^void GetStr(char *ibuf, int max, const int mode) {/
+GetStrName	chat.c	/^void GetStrName(char *ibuf, int max) {$/
+ItemCount	ulist.c	/^uli ItemCount(Header hdr)$/
+JoinRoom	rmsg.c	/^void JoinRoom() {$/
+JoinStats	rmsg.c	/^void JoinStats() {$/
+KillElement	ulist.c	/^void KillElement(Header *hdr, List *item)$/
+KillItem	ulist.c	/^int KillItem(Header *hdr)$/
+LastItem	ulist.c	/^int LastItem(Header *hdr)$/
+MainMenu	menu.c	/^void MainMenu(const char *ip) {$/
+MakeDropFile	user.c	/^int MakeDropFile(void) {$/
+MakeNewRoom	rmsg.c	/^int MakeNewRoom(void) {$/
+MakeRooms	rmsg.c	/^void MakeRooms() {$/
+Merge	ulist.c	/^void Merge(Header *ha, Header *hb, Header *ret)$/
+Mmain	main.c	/^int main(int argc, char **argv) {$/
+More	misc.c	/^int More(void) {$/
+More2	misc.c	/^int More2(void) {$/
+More3	misc.c	/^int More3(void) {$/
+MoveMsg	gmsg.c	/^int MoveMsg(const long msgNo, const long hiMsg, co/
+NewMsgs	rmsg.c	/^int NewMsgs(int rrd, long lohi[2]) {$/
+NextItem	ulist.c	/^int  NextItem(Header *hdr)$/
+Pause	misc.c	/^void Pause(void) {	$/
+Pause2	misc.c	/^void Pause2(void) {$/
+Pause3	misc.c	/^void Pause3(void) {$/
+PauseNoColor	misc.c	/^void PauseNoColor(void) {$/
+PlayerList	game-list.c	/^void PlayerList(void) {$/
+Poker	poker.c	/^int Poker(void) {$/
+PrevItem	ulist.c	/^int  PrevItem(Header *hdr)$/
+PrintList	ulist.c	/^void PrintList(Header hdr, FILE *fptr)$/
+PrintListHeader	ulist.c	/^void PrintListHeader(void) {$/
+PrintMsg	gmsg.c	/^void PrintMsg(const MSGBODY msg, const long hiMsg,/
+PrintPLHeader	game-list.c	/^void PrintPLHeader(void) {$/
+PrintSlow	misc.c	/^void PrintSlow(const char *s) {$/
+ReadMsgs	rmsg.c	/^void ReadMsgs(int rrd) {$/
+RemoveDups	ulist.c	/^void RemoveDups(Header *hdr)$/
+ResetFiveMsgs	rmsg.c	/^void ResetFiveMsgs() {$/
+ResetList	ulist.c	/^void ResetList(Header *hdr)$/
+SelectRoom	rmsg.c	/^int SelectRoom() {$/
+Sort	ulist.c	/^void Sort(Header *hdr)$/
+SortDown	ulist.c	/^void SortDown(void)$/
+SortUp	ulist.c	/^void SortUp(void)$/
+StartGame	sflight.c	/^void StartGame() {$/
+StatMsgs	gmsg.c	/^int StatMsgs(long lohi[2], const int rnum) {$/
+SysopMenu	sysop.c	/^int SysopMenu(void) {$/
+TailFile	misc.c	/^int TailFile(const char *filename, int ln) {$/
+TopCard	poker.c	/^int TopCard(card h[5]) {$/
+TotalConnTime	user.c	/^long TotalConnTime() {$/
+TotalNewMsgs	rmsg.c	/^int TotalNewMsgs() {$/
+UserList2	ulist.c	/^void UserList2(int mode) {$/
+UserToProfile	user.c	/^void UserToProfile(void) {$/
+ValidateMenu	menu.c	/^int ValidateMenu(int i) {$/
+WriteNewMail	gmsg.c	/^int WriteNewMail(MSGBODY msg, const char *whoto) {/
+WriteNewMsg	gmsg.c	/^int WriteNewMsg(MSGBODY msg, const int rnum) {$/
+Wumpus	wumpus.c	/^int Wumpus(void) {$/
+Yell	chat.c	/^void Yell() {$/
+assign_values	poker.c	/^card assign_values(int pips, cdhs suit) {$/
+bad_name	user.c	/^int bad_name(const char *name) {$/
+broadcast	chat.c	/^void broadcast(const char *obuf) {$/
+check_hazards	wumpus.c	/^void check_hazards () {$/
+check_shot	wumpus.c	/^void check_shot () {$/
+chgwinsz	main.c	/^void chgwinsz() {$/
+create_textlist	editor2.c	/^void create_textlist(lot_header *lp) {$/
+deal_the_cards	poker.c	/^void deal_the_cards(card deck[52], card hand[NPLAY/
+delete_lot	editor2.c	/^int delete_lot(lot_header *lp, int j) {$/
+draw_editor_header	editor2.c	/^void draw_editor_header() {$/
+editor2	editor2.c	/^void editor2(const char *whoto, const char *subj, /
+exists_player_state	game.c	/^int exists_player_state() {$/
+existuser	user.c	/^int existuser(char *name) {$/
+fd_has_data	chat.c	/^int fd_has_data (const int timeout, const int fd)$/
+file_editor	file-ed.c	/^void file_editor(const char *filename, const int m/
+free_textlist	editor2.c	/^void free_textlist(lot_header *lp) {$/
+get_player	game.c	/^int get_player() {$/
+get_user_info	user.c	/^int get_user_info() {$/
+get_user_name	user.c	/^char *get_user_name() {$/
+get_user_state	user.c	/^int get_user_state() {$/
+get_who_to	editor2.c	/^char *get_who_to(char *whoto) {$/
+getlet	wumpus.c	/^int getlet (char *prompt) {$/
+getnum	wumpus.c	/^int getnum (char *prompt) {$/
+goto_lot	editor2.c	/^void goto_lot(lot_header *lp, int j) {$/
+handle_broken_telnet	main.c	/^void handle_broken_telnet(int signal) {$/
+insert_lot	editor2.c	/^int insert_lot(lot_header *lp, const char *s) {$/
+is_flush	poker.c	/^int is_flush(card h[5]) {$/
+is_kind	poker.c	/^int is_kind(card h[5]) {$/
+is_lastlisthidden	user.c	/^int is_lastlisthidden(const char *name) {$/
+is_room_maker	user.c	/^int is_room_maker(const char *name) {$/
+is_straight	poker.c	/^int is_straight(card h[5]) {$/
+is_sysop	user.c	/^int is_sysop(const char *name) {$/
+is_twit	user.c	/^int is_twit(const char *name) {$/
+lastlist	last.c	/^void lastlist(void) {$/
+listact	last.c	/^void listact(int drop) {$/
+logact	last.c	/^void logact(char act) {$/
+login	user.c	/^int login(void) {$/
+logout	user.c	/^void logout(void) {$/
+mkplayer	game.c	/^int mkplayer() {$/
+mkuser_info	user.c	/^int mkuser_info(void) {$/
+mkuser_keycode	user.c	/^int mkuser_keycode(void) {$/
+mkuser_state	user.c	/^int mkuser_state(void) {$/
+move	wumpus.c	/^void move () {$/
+move_or_shoot	wumpus.c	/^int move_or_shoot () {$/
+move_wumpus	wumpus.c	/^void move_wumpus () {$/
+new_user_signup	user.c	/^void new_user_signup() {$/
+newcchatffp	chat.c	/^int newcchatffp() {$/
+newchatfp	chat.c	/^int newchatfp() {$/
+planet_menu	sflight.c	/^void planet_menu(void) {$/
+play_poker	poker.c	/^int play_poker(card deck[52]) {$/
+print_instructions	wumpus.c	/^void print_instructions () {$/
+print_lot	editor2.c	/^void print_lot(lot_header *lp) {$/
+printago	misc.c	/^void printago(long cmpTime) {$/
+prn_card_values	poker.c	/^void prn_card_values(card *c_ptr) {$/
+prn_facedown_hand	poker.c	/^void prn_facedown_hand(void) {$/
+prn_faceup_hand	poker.c	/^void prn_faceup_hand(card h[5]) {$/
+push_numbers	editor2.c	/^int push_numbers(lot_header *lp) {$/
+readcchatffp	chat.c	/^void readcchatffp() {$/
+readchatfp	chat.c	/^void readchatfp() {$/
+resetcchatffp	chat.c	/^void resetcchatffp() {$/
+resetchatfp	chat.c	/^void resetchatfp() {$/
+shoot	wumpus.c	/^void shoot () {$/
+shuffle	poker.c	/^void shuffle(card deck[52]) {$/
+strisdigit	misc.c	/^int strisdigit(char *s) {$/
+swap	poker.c	/^void swap(card *p, card *q) {$/
+tolowerString	misc.c	/^void tolowerString(char *s) {$/
+topappend_lot	editor2.c	/^int topappend_lot(lot_header *lp, const char *s) {/
+toupperString	misc.c	/^void toupperString(char *s) {$/
+update_player	game.c	/^int update_player() {$/
+update_user	user.c	/^int update_user(void) {$/
+update_user_info	user.c	/^int update_user_info(void) {$/
+update_user_state	user.c	/^int update_user_state() {$/
+view_player_stat	game.c	/^void view_player_stat() {$/
+whois_off	user.c	/^void whois_off(void) {	$/
+whois_on	user.c	/^void whois_on(int doing) {$/
+whois_on_list	user.c	/^void whois_on_list(void) {$/
