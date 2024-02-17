@@ -12,4 +12,4 @@ a day, 7 days a week :)
 
 ## Video Demo 
 
-[![The ShackBBS](video/Tiny-BBS.gif)](video/Tiny-BBS.mp4)
+[![The ShackBBS](video/Tiny-BBS.gif)](https://www.veoh.com/watch/v15881705K2gA6sNp)
